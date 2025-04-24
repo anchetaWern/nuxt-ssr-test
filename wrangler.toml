@@ -1,0 +1,10 @@
+# wrangler.toml
+name = "wernancheta-nuxt-ssr-test"
+compatibility_date = "2024-11-01"
+type = "javascript"
+
+[site]
+bucket = ".output/public"
+
+[build]
+command = "npm run build"
